@@ -18,4 +18,8 @@
 
 ## Day2
 
-// TODO
+[轮转数组](https://leetcode-cn.com/problems/rotate-array/)
+
+[移动零](https://leetcode-cn.com/problems/move-zeroes/)
+
+第一道题，采用取mod的方式快速偏移，第二道题实现了三种，思路是一致的，先去掉0，再补0。
