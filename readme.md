@@ -22,4 +22,12 @@
 
 [移动零](https://leetcode-cn.com/problems/move-zeroes/)
 
-第一道题，采用取mod的方式快速偏移，第二道题实现了三种，思路是一致的，先去掉0，再补0。
+第一道题，采用取mod的方式快速偏移，第二道题实现了三种，思路是一致的，先去掉0，再补0
+
+## Day3
+
+[反转字符串](https://leetcode-cn.com/problems/reverse-string/)
+
+[输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
+
+第一道题，直接折半置换，第二道题，使用了map做空间进行转换
