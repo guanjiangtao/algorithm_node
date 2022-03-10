@@ -4,8 +4,6 @@
 
 ## Day1
 
-代码目录：src/day1
-
 [二分查找](https://leetcode-cn.com/problems/binary-search/)
 
 [第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)
@@ -14,23 +12,17 @@
 
 [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
 
-前面3道题主要用了二分查找的算法来完成，第四个通过双向指针的方式完成。
-
 ## Day2
 
 [轮转数组](https://leetcode-cn.com/problems/rotate-array/)
 
 [移动零](https://leetcode-cn.com/problems/move-zeroes/)
 
-第一道题，采用取mod的方式快速偏移，第二道题实现了三种，思路是一致的，先去掉0，再补0
-
 ## Day3
 
 [反转字符串](https://leetcode-cn.com/problems/reverse-string/)
 
 [输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
-
-第一道题，直接折半置换，第二道题，使用了map做空间进行转换
 
 ## Day4
 
@@ -39,3 +31,6 @@
 ## Day5
 
 [链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
+
+[ 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+
