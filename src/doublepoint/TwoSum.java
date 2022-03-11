@@ -1,4 +1,4 @@
-package day3;
+package doublepoint;
 
 import java.util.Arrays;
 import java.util.HashMap;

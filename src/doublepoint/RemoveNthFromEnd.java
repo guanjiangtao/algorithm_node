@@ -1,4 +1,4 @@
-package day5;
+package doublepoint;
 
 
 public class RemoveNthFromEnd {

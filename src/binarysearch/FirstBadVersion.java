@@ -1,4 +1,4 @@
-package day1;
+package binarysearch;
 
 /**
  * 找到错误的版本

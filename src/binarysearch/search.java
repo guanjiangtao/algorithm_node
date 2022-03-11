@@ -1,4 +1,4 @@
-package day1;
+package binarysearch;
 
 public class search {
 

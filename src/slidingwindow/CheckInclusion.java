@@ -1,4 +1,4 @@
-package day6;
+package slidingwindow;
 
 import java.util.Arrays;
 

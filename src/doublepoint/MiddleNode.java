@@ -1,6 +1,4 @@
-package day5;
-
-import java.util.List;
+package doublepoint;
 
 /**
  * Definition for singly-linked list.

@@ -1,4 +1,4 @@
-package day4;
+package doublepoint;
 
 import java.util.Arrays;
 
