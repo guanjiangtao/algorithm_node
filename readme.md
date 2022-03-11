@@ -38,3 +38,8 @@
 
 [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
+[ 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)
+
+## Day7
+
+// TODO
