@@ -18,7 +18,7 @@
 
 
 ## Tree
-[二叉树知识点](./src/tree/readme.md)
+* [二叉树第一阶段总结](./src/tree/binarytree.md)
 
 
 ## Graph
