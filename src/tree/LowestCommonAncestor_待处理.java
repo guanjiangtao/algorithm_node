@@ -1,6 +1,6 @@
 package tree;
 
-public class LowestCommonAncestor {
+public class LowestCommonAncestor_待处理 {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
             return null;
@@ -18,5 +18,12 @@ public class LowestCommonAncestor {
             }
         }
         return treeNode;
+    }
+
+    public TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
+        TreeNode ans = root;
+        while (true) {
+           // todo
+        }
     }
 }
