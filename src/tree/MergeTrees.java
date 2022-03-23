@@ -5,7 +5,6 @@ import java.util.Queue;
 
 // todo
 public class MergeTrees {
-
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
         if (root1 == null && root2 == null) {
             return null;
@@ -20,29 +19,21 @@ public class MergeTrees {
         Queue<TreeNode> queue2 = new LinkedList<>();
         queue1.offer(root1);
         queue2.offer(root2);
-        TreeNode newTreeNode = new TreeNode();
         while (!queue1.isEmpty() && !queue2.isEmpty()) {
             TreeNode node1 = queue1.poll();
             TreeNode node2 = queue2.poll();
-            newTreeNode.val = node1.val + node2.val;
-            if (node1.left != null) {
-                queue1.offer(node1.left);
+            int node1Val = node1 != null ? node1.val : 0;
+            int node2Val = node2 != null ? node2.val : 0;
+            if (node1Val == 0) {
+                node1 = new TreeNode(node1Val + node2Val);
+            } else {
+                node1.val = node1Val + node2Val;
             }
-            if (node1.right != null) {
-                queue1.offer(node1.right);
-            }
-            if (node2.left != null) {
-                queue2.offer(node2.left);
-            }
-            if (node2.right != null) {
-                queue2.offer(node2.right);
-            }
-            if (node1.left == null || node1.right == null) {
-                queue1.offer(new TreeNode(0));
-            }
-            if (node2.left == null || node2.right == null) {
-                queue2.offer(new TreeNode(0));
-            }
+            System.out.println(node1.val);
+            queue1.offer(node1.left);
+            queue1.offer(node1.right);
+            queue2.offer(node2.left);
+            queue2.offer(node2.right);
         }
         return root1;
     }
