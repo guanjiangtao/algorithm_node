@@ -1,6 +1,5 @@
 package list;
 
-
 public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode l3 = new ListNode(-1);
@@ -35,7 +34,4 @@ public class AddTwoNumbers {
         head = l3.next;
         return head;
     }
-public static void main(String[] args) {
-    System.out.println(9 % 10);
-}
 }
