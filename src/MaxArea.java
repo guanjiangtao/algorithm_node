@@ -1,5 +1,5 @@
 
-// 接雨水 双指针
+// 接雨水 双指针(唯一)
 public class MaxArea {
 
     public static int maxArea(int[] height) {
