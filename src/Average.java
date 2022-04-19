@@ -1,5 +1,5 @@
 public class Average {
-
+    // 计算平均数
     public double average(int[] salary) {
         int min = salary[0];
         int max = salary[0];
